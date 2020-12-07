@@ -1,8 +1,38 @@
-html {
-    font-size: 75%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: serif;
+    color: purple;
+    margin-bottom: 10px;
 }
 
-h1 {
-    font-size: inherit;
-}
+
+.title {
+    font-size: 18px;
+    font-family: monospace;
+   }
+
+   .nav {
+       margin-top: 10px;
+       list-style-type: none;
+       padding-left: 0%;
+   }
+
+   .nav li {
+       display: inline-block;
+   }
+
+.nav a {
+       color: white ;
+       background-color: turquoise;
+       padding: 5px;
+       text-decoration: none;
+       border-radius: 2px;
+   }
+
+   .nav .Pglo{
+       background-color: red;
+   }
