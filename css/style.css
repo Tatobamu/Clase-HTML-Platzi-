@@ -1,36 +1,12 @@
-.main-nav {
-    margin-top: 10px;
-    list-style: none;
-    padding-left: 0 ;
-    background-color: #13a4a4;
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
 }
 
-.main-nav__item {
-    display: inline-block;
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 30px;
 }
-
-.main-nav__item a {
-    color: white;
-    padding: 5px;
-    border-radius: 2px;
-    text-decoration: none;
-}
-
-.main-nav__item a:hover{
-    color: black;
-}
-
-.main-nav__item a:active{
-    color: red;
-}
-
-<<<<<<< HEAD
-.main-nav__item a::after {
-    content: " / ";
-}
-=======
-/* ID */ 
-#texto {
-    background-color: darkblue;
-}
->>>>>>> 1bc1513743af98693863666580f16a575df2f193
