@@ -24,6 +24,13 @@
     color: red;
 }
 
+<<<<<<< HEAD
 .main-nav__item a::after {
     content: " / ";
 }
+=======
+/* ID */ 
+#texto {
+    background-color: darkblue;
+}
+>>>>>>> 1bc1513743af98693863666580f16a575df2f193
