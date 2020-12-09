@@ -1,3 +1,19 @@
-div p {
-    color: red;
+p{
+    font-size: 18px;
 }
+
+/* Medida absoluta los px */
+
+.ejemplorelativas {
+    font-size: 50%;
+}
+
+/* Cuando se agrega porcentaje o una medida relativa variara como se muestre el contenido segun la pantalla del dispositivo, en este caso es el 50% de lo que por defecto esta en tamaño de los parrafos en los navegadores (16px) (se muestra entonces con (8px) */
+
+main {
+    background-color: rgb(0, 204, 255);
+    width: 100%;
+    height: 500px;
+}
+/* 
+Este width ayuda a no generar scroll y que la pagina se adapte al tamaño de pantalla que requiera */
