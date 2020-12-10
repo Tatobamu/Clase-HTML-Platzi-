@@ -1,7 +1,17 @@
-.text-container{
-    font-size: 1.5em;
+*{
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
 }
-.text-container div{
-    font-size: 1.5em ;
+html {
+font-size: 62.5%;
+}
+p{
+ font-size: 1.9rem;
 }
 
+/* 
+Rem va a tener de referencia el estilo de la etiquieta root del proyecto, que en este caso es la etiqueta <html>  la cual de forma preterminada tendra 16px por rem, a la que aplicandole en el casa de font-size un 62.5% se setea que 1 rem sean 10px */
+
+
+/* Entonces siempre se reinicia el margin y el padding, se ajusta el box-sizing y se ajusta el font-size con estas reglas de css */
