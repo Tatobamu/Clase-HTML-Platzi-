@@ -1,17 +1,46 @@
 *{
     box-sizing: border-box;
-    margin: 0;  
+    margin: 0;
     padding: 0;
+    }
+
+html{
+    background-color: #008891;
 }
-html {
-font-size: 62.5%;
-}
-p{
- font-size: 1.9rem;
+    
+
+.box {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin: 0 auto;
 }
 
-/* 
-Rem va a tener de referencia el estilo de la etiquieta root del proyecto, que en este caso es la etiqueta <html>  la cual de forma preterminada tendra 16px por rem, a la que aplicandole en el casa de font-size un 62.5% se setea que 1 rem sean 10px */
+figure {
+    width: 100%;
+    height: 50%;
+}
 
+#one {
+    background-color: #00587a;
+    position: relative;
+    top: 30px;
+    border-radius: 50px;
+    width: 22%;
+    min-width: 200px;
+    max-width: 250px;
+    max-height: 75px;
+    padding: 20px;
+    text-align: center;
+    border: 5px white ;
+}
+#two {
+    background-color: #0f3057;
+    width: 80%;
+    min-width: 500px;
+    min-height:500px;   
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    border: 5px white
+}
 
-/* Entonces siempre se reinicia el margin y el padding, se ajusta el box-sizing y se ajusta el font-size con estas reglas de css */
