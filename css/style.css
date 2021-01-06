@@ -5,64 +5,92 @@
     }
 
 html{
+    font-size: 62.5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.header{
-    background-color: #e5f1e3;
-}
-
-.header__logo, .nav, .nav__ul li {
-    display: inline-block;
-    margin: 5px;
-}
-
-.nav{
-    position: absolute;
-    right: 0;
-    top:20px;
+body{
+    font-size: 2rem;
     
 }
 
-.nav__ul li a{
-    text-decoration: none;
-}
-.promos {
-    width: 20%;
-    min-height: 400px;
-    background-color: #a3cd9e;
-    padding: 20px;
-    display:inline-block
+.main{
+    display: flex;
+    border: 0.3rem solid black;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.promos div{
-    background-color: grey;
-    display: block;
-    margin: 10px auto;
-    border-radius: 15px;
-    width: 80%;
-    height: 100px;
+
+section {
+  width: 12rem;
+ height: 50rem;
+  border: 0.2rem solid black;
 }
 
-main {
-    background-color:#529471;
-    min-height: 400px;
+div{
+    margin: 1rem;
 }
-.content img {
-    margin: 20px auto;
-    position: relative;
-left: 20%;
-}
-.content{
-    display: inline-block;
-    padding: 10px;
-    position: absolute;
-   
-}
-
-.footer{
-    padding: 20px;
-    text-align: center;
-    background-color: #35635b;
+.divA{
+    width: 10rem;
+    background-color: rgb(33, 71, 240);
+    height: 10rem;
     
+}
+.divB{
+    width: 5rem;
+    background-color: rgb(217, 238, 24);
+    height: 15rem;
+}
+.divC{
+    width: 10rem;
+    background-color: rgb(240, 6, 6);
+    height: 10rem;
+}
+
+
+.Sec1{
+    display: flex;
+    flex-direction: row-reverse;  
+}
+
+.Sec2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Sec3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.Sec4 {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+
+.Sec5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Sec6 {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+}
+
+.Sec7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.Sec8 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
 }
