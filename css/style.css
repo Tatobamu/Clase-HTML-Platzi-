@@ -1,3 +1,10 @@
+:root{
+    --primary-color: #fdb827;
+    --secondary-color: #21209c;
+    --font: 1.8rem;
+    --header-size:4rem;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,90 +14,28 @@
 html{
     font-size: 62.5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body{
-    font-size: 2rem;
-    
-}
-
-.main{
     display: flex;
-    border: 0.3rem solid black;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 
-section {
-  width: 12rem;
- height: 50rem;
-  border: 0.2rem solid black;
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
 }
 
-div{
-    margin: 1rem;
+h1{
+    font-size: 4rem;
+    color: var(--primary-color);
 }
-.divA{
-    width: 10rem;
-    background-color: rgb(33, 71, 240);
-    height: 10rem;
-    
-}
-.divB{
-    width: 5rem;
-    background-color: rgb(217, 238, 24);
-    height: 15rem;
-}
-.divC{
-    width: 10rem;
-    background-color: rgb(240, 6, 6);
-    height: 10rem;
+main{
+    width: 100vw;
+    height: 75vh;
+    font-size: var(--font);
 }
 
-
-.Sec1{
-    display: flex;
-    flex-direction: row-reverse;  
-}
-
-.Sec2 {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.Sec3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-
-.Sec4 {
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-}
-
-.Sec5 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.Sec6 {
-    display: flex;
-    flex-direction: column ;
-    justify-content: space-around;
-}
-
-.Sec7 {
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-}
-
-.Sec8 {
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-evenly;
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--secondary-color);
 }
